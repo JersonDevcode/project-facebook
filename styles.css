@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body{
+    background-color: #DBDBDB;
+}
+
+.Container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: 546px;
+    height: 188px;
+    margin-top: 25rem;
+    margin-left: 25rem;
+}
+
+.Facebook{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #2694F9;
+}
+
+p{
+    width: 534px;
+    height: 78px;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#Div-Login{
+    gap: 25px;
+    flex-direction: column;
+    display: inline-flex;
+    margin-top: 19rem;
+    margin-left: 59rem;
+    background: #FFFFFF;
+    width: 476px;
+    height: 476px;
+    box-shadow: -2px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+Input{
+    cursor: pointer;
+    width: 432px;
+    height: 63px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+input::placeholder{
+    color: #C2C2C2;
+
+}
+
+.Button-Login{
+    cursor: pointer;
+    width: 432px;
+    height: 63px;
+    background: #2694F9;
+    border-radius: 15px;
+    margin-left: 1rem;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.Button-Password:hover{
+    opacity: 0.8;
+}
+
+.Button-Password:active{
+   opacity: 0.5;
+}
+
+.Forgot-Password{
+    cursor: pointer;
+    margin-left: 149px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2694F9;
+}
+
+.Forgot-Password:hover{
+    opacity: 0.8;
+}
+
+.Forgot-Password:active{
+    opacity: 0.5;
+}
+
+.Button-Create-Account{
+    cursor: pointer;
+    width: 280px;
+    height: 63px;
+    background: #22D134;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Button-Create-Account:hover{
+    opacity: 0.8;
+}
+
+.Button-Create-Account:active{
+    opacity: 0.5;
+}
+
+#Create-page{
+    margin-top: 2rem;
+    margin-left: 62rem;
+    font-size: 20px;
+
+}
+
+img{
+    width: 39px;
+    height: 44px;
+    margin-left: 27rem;
+}
+
+#eyes-on{
+    display:contents;
+    border-radius: 50px;
+}
+
+#eyes-off{
+    display: block;
+    border-radius: 50px;
+}
+
+@media screen and (max-width : 427px) {
+    .Container{
+        position: absolute;
+        width: 569px;
+        height: 208px;
+        margin-top: 11rem;
+        margin-left: 9rem;
+    }
+    .Facebook{
+        width: 208px;
+        height: 174px;
+        font-weight: 700;
+        font-size: 208px;
+        line-height: 77px;
+        color: #2694F9;
+    }
+
+    p{
+        display: block;
+        width: 827px;
+    }
+
+    #Div-Login{
+        gap: 25px;
+        flex-direction: column;
+        display: inline-flex;
+        margin-top: 29rem;
+        margin-left: 11rem;
+        background: #FFFFFF;
+        width: 842px;
+        height: 971px;
+        box-shadow: -2px 4px 10px rgb(0 0 0 / 50%);
+        border-radius: 15px;
+    }
+
+    Input{
+        cursor: pointer;
+        width: 751px;
+        height: 107px;
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;
+        margin-left: 3rem;
+        margin-top: 7rem;
+        padding-left: 2rem;
+    }
+
+    Input::placeholder{
+        font-size: 27px;
+    }
+
+    .Button-Login {
+        cursor: pointer;
+        width: 603px;
+        height: 96px;
+        background: #2694F9;
+        border-radius: 15px;
+        margin-left: 7rem;
+        border: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 24px;
+    }
+
+    .Forgot-Password {
+        cursor: pointer;
+        margin-left: 272px;
+        font-weight: 300;
+        font-size: 35px;
+        color: #2694F9;
+    }
+
+    .Button-Create-Account {
+        cursor: pointer;
+        width: 443px;
+        height: 102px;
+        background: #22D134;
+        border-radius: 15px;
+        border: none;
+        color: #FFFFFF;
+        margin-left: 208px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    #Create-page{
+        margin-top: 2rem;
+        margin-left: 15rem;
+        font-size: 42px;
+        width: 759px;
+    }
+
+    #eyes-on{
+        border-radius: 50px;
+        display: block;
+       width: 82px;
+       height: 82px;
+       margin-left: 46rem;
+    }
+
+    #eyes-off{
+        border-radius: 50px;
+        display: block;
+        width: 82px;
+        height: 82px;
+        margin-left: 46rem;
+    }
+}
