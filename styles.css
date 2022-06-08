@@ -232,7 +232,7 @@ img{
 
     #eyes-on{
         border-radius: 50px;
-        display: block;
+        display: none;
         width: 41px;
         height: 55px;
         margin-left: 21rem;
@@ -240,7 +240,7 @@ img{
 
     #eyes-off{
         border-radius: 50px;
-        display: none;
+        display: block;
         width: 41px;
         height: 55px;
         margin-left: 21rem;
